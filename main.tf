@@ -19,7 +19,7 @@ terraform {
   }
 }
 
-#
+
 provider "aws" {
   region = "us-east-1"
   # allowed_account_ids = ["211125325120"]
@@ -41,6 +41,7 @@ module "vpc" {
   tags = {
     Terraform   = "true"
     Environment = "dev"
+    tags_owner = "ramesh"
   }
 }
 
