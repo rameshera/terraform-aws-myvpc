@@ -11,7 +11,7 @@ terraform {
     # }
   }
   cloud {
-    organization = "cloud-infra-dev"
+    organization = "cloud-infra-dev123"
     workspaces {
       name    = "testing-terraform-aws-modules" # Workspace with VCS driven workflow
       project = "AWS-Cloud-IaC"
